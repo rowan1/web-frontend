@@ -1,0 +1,257 @@
+/*landing page style*/
+body {
+  background-image: linear-gradient(to right,#ffffff,#c2ecfa)
+}
+
+#landing_bg{
+    position: relative;
+    /*right: 00px;*/
+    width: 400px;
+    height: 200px;
+}
+
+
+.images {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.computer {
+  position: absolute;
+  top: 148;
+  right:160;
+  
+}
+.bg {
+  margin: 0;
+  padding: 0;
+  right: -8px;
+  width: 702px;
+  height: 655px;
+  position: absolute;
+    top: -53px;
+}
+
+.logo{
+  margin: 0;
+  right: 0px;
+  position: absolute;
+  top: -5px;
+  width: -1px;
+  height: -2px;
+}
+
+.heading1{
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: 800;
+    color: #214a81;
+    position: absolute;
+    top: 151px;
+    left: 75px;
+    /*width: 702px;
+    height: 655px;*/
+}
+
+.quote{
+    font-family: "Open Sans";
+    color: #929394;
+    position: absolute;
+    font-size: 25px;
+    top: 290px;
+    left: 75px;
+}
+
+.button{
+  position: absolute;
+  top: 420px;
+  left: 75px;   
+  display: inline-block;
+  border-radius: 32px;
+  background-color: #214a81;
+  font-family: "Open Sans";
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Login form*/
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  background: none;
+  font-family: "Open Sans";
+  border: none;
+  color: #214a81;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 25px;
+
+}
+
+
+.container {
+  padding: 16px;
+  font-family: "Open Sans";
+}
+
+span.psw {
+  float: 20% right;
+  padding-top: 16px;
+  font-size: 90%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  /*background-color: #fefefe;*/
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 25%; /* Could be more or less, depending on screen size */
+  /*height: 40%;*/
+
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #214a81;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  /*padding: 20px 0 30px 0;*/
+  
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  position: relative;
+  width: 80%;
+  height: 3%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  font-family: "Open Sans";
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+/* add appropriate colors to fb and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
