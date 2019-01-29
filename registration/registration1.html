@@ -1,0 +1,51 @@
+<html>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="registration.css">
+<body>
+    <!--<div class="logo">
+        <img  src = "assets/2.png">
+    </div>-->
+    <h2 class = "head">Register</h2>
+    <div class="sq">
+    </div>
+    <div class = "regform">
+        <form class="form-inline" action="/registration/registration2.html">
+            <label for="name" id = "namelabel">Name:</label></br>
+            <input type="fname" id="fn" placeholder="firstname" name="fn">
+            <input type="lname" id="ln" placeholder="lastname" name="ln"></br>
+            <label for="education" id = "edulabel">Education:</label></br>
+            <select id="edu" ></br>
+                <option value="" disabled selected>Select University</option>
+                <option id="univ" value="univ"></option></br>
+            </select></br>
+            <select id="fac" >
+                <option value="" disabled selected>Select Faculty</option>
+                <option id="faculty" ></option>
+            </select>  </br>
+            <select id="dep" >
+                <option value="" disabled selected>Select Department</option>
+                <option id="dep" ></option>
+            </select> </br>  
+            <select id="term" ></br>
+                <option value="" disabled selected>Select Term</option>
+                <option id="term" ></option>
+            </select>   </br>    
+            <button type="submit" class="button">Next</button>
+        </form>
+    </div>
+    
+
+
+</body>
+</html>
+<script>
+   var uni = ["Alexandria University", "Pharos", "AAST"];
+    var text = "";
+    var i;
+    for (i = 0; i < uni.length; i++) {
+    text += uni[i] + "</br>";
+    }
+    document.getElementById("univ").innerHTML = text;
+</script>

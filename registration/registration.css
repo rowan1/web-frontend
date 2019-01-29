@@ -1,0 +1,219 @@
+body {
+  background-image: linear-gradient(to right,#ffffff,#c2ecfa)
+}
+.logo{
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+.sq{
+  height: 500px;
+  width: 800px;
+  position: absolute;
+  top: 19%;
+  right: 20%;
+  left: 20%;
+  background-color: #ffffff;
+  opacity: 0.5;
+  border-radius: 5%;
+}
+.regform{
+  height: 500px;
+  width: 800px;
+  position: absolute;
+  top: 19%;
+  right: 20%;
+  left: 20%;
+  font-family: "Open Sans";
+  color: #214a81;
+  font-size: 160%; 
+  font-weight: 400;
+}
+.head{
+  position: absolute;
+  font-family: "Open Sans";
+  color: #214a81;
+  font-size: 230%;
+  font-weight: 500;
+  top:6%;
+  left:22%;
+  
+}
+input[type=fname]{
+  position: relative;
+  width: 40%;
+  padding: 12px 20px;
+  top:40%;
+  margin: 8px 35px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=lname]{
+  position: relative;
+  width: 40%;
+  padding: 12px 20px;
+  top:40%;
+  margin: 0 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#namelabel{
+  position: absolute;
+  margin: 8px 35px;
+}
+#edulabel{
+  position: absolute;
+  margin: 16px 35px;
+}
+
+#edu,#fac,#dep{
+  position: absolute;
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 86%;
+  padding: 12px 20px;
+}
+#edu{
+  margin: 26px 35px;
+}
+#fac{
+  margin: 56px 35px; 
+}
+#dep{
+  margin: 86px 35px; 
+}
+#term{
+ position: absolute;
+  margin: 116px 35px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 40%;
+  padding: 12px 20px; 
+}
+
+.button{
+  position: absolute;
+  top: 420px;
+  right: 75px;   
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #214a81;
+  font-family: "Open Sans";
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 12%;
+  height: 8%;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+
+
+input[type=search] {
+  padding: 12px 20px;
+  top:40%;
+  margin: 8px 35px;
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=search]:focus {
+  width: 80%;
+}
+
+
+/*payment method*/
+.col-50 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+.paymentlabel{
+  position: absolute;
+  margin: 8px 35px;
+  color: #b8bcbe;
+  font-weight: 100px;
+}
+.icon-container {
+  margin-bottom: 20px;
+  /*padding: 7px 0;*/
+  position: relative;
+  width: 200%;
+  padding: 20px 20px;
+  top:40%;
+  left: 40%;
+  margin: 0 8px;
+  
+}
+#cards{
+   position: absolute;
+  margin: 18px 35px;
+  color: #214a81;
+  font-weight: 100px;
+  font-size: 20px;
+}
+.paymentbody{
+  position: absolute;
+  margin: 18px 35px;
+  color: #214a81;
+  font-weight: 100px;
+  font-size: 20px;
+}
+input[type=text]{
+  position: relative;
+  
+  padding: 12px 20px;
+  top:40%;
+  margin: 8px 35px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#cname{
+width: 160%;
+}
+#ccnum{
+width: 160%;
+}
+#cvv{
+  width: 20%;
+}
+#expmonth{
+  width: 40%;
+  
+}
+#expyear{
+width: 20%;
+}
+/*b8bcbe*/
